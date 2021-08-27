@@ -1,0 +1,78 @@
+@media (min-width: 992px){
+    .achievements{
+        background: url(../img/tick.png) center top repeat-y;
+        margin-bottom: 3rem;
+        height: 42rem;
+    }
+
+    .odd:after, .even:after, ul:after{
+        content:"";
+        display:block;
+        clear:both;
+    }
+
+    li{
+        list-style: none;
+        width: 30rem;
+    }
+
+    .odd{
+        float: right;
+        transform: translateX(-14.8rem);
+    }
+
+    .even{
+        float: left;
+        transform: translateX(14.3rem);
+    }
+
+    .achievement-list{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 0px;
+    }
+
+    .odd>.achievement-date{
+        background: url(../img/time-point-left.png) center center no-repeat;
+        background-size: cover;
+        font-size: 20px;
+        font-weight: 400;
+        width: 15rem;
+        padding-left: 3rem;
+        color: #4876e8;
+        float: right;
+    }
+
+    .odd>.achievement-text{
+        float: right;
+        width: 100%;
+        text-align: right;
+        padding-right: 2rem;
+    }
+
+    .odd>.achievement-text, .even>.achievement-text{
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+    .even>.achievement-date{
+        background: url(../img/time-point.png) center center no-repeat;
+        background-size: cover;
+        font-size: 20px;
+        font-weight: 400;
+        width: 15rem;
+        padding-left: 5rem;
+        color: #4876e8;
+    }
+
+    .even>.achievement-text{
+        width: 100%;
+        text-align: right;
+        padding-left: 2rem;
+    }
+
+    h5{
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,61 @@
+.introduction{
+    font-size: 1.4rem;
+}
+
+h4{
+    margin-top: 1rem;
+}
+
+p{
+    text-indent: 2em;
+}
+
+@media (max-width: 991px){
+    .desktop-head{
+        display: none;
+    }
+
+    .basic-info{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .mobile-head{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width :992px){
+    .desktop-head{
+        float: right;
+    }
+
+    .mobile-head{
+        display: none;
+    }
+
+    .desktop-head{
+        width: 16rem;
+        margin-left: 1rem;
+    }
+
+    .main-text{
+        margin-top: 3rem;
+    }
+    
+    .basic-info{
+        text-align: center;
+        display: block;
+        font-size: large;
+    }
+
+    .avatar{
+        width: 100%;
+    }
+
+    .introduction{
+        min-height: 250px;
+    }
+}

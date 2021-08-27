@@ -1,0 +1,7 @@
+env
+.vs
+__pycache__
+obj
+*.pyproj
+*.pyproj.user
+*.sln

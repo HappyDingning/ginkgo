@@ -1,0 +1,231 @@
+#carouselExampleCaptions img{
+    object-fit: cover;
+}
+
+body{
+    background-color: #E7EAEA;
+}
+
+@media (min-width: 992px) {
+    .carousel-inner h5{
+        font-size: 3rem;
+    }
+
+    html, body, #mainFunc, #mainFunc>div, .carousel-div, #carouselExampleCaptions, .carousel-inner, .carousel-item{
+        height: 100%;
+    }
+
+    .carousel-item>img{
+        height: -webkit-fill-available;
+    }
+
+    .mobile{
+        display: none;
+    }
+
+    b{
+        height: 1px;
+        width: 60px;
+        background: #fff;
+        display: inline-block;
+        vertical-align: middle;
+        opacity: 0.5;
+        margin: 0 20px;
+    }
+
+    .desktop-notice{
+        background-image: url("/static/img/home_background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sub-item-title{
+        height: fit-content;
+        margin-bottom: 40px;
+        margin-top: 160px;
+    }
+
+    h2{
+        text-align: center;
+        color: white;
+        font-size: 36px;
+    }
+
+    h1, h6{
+        text-align: center;
+    }
+
+    .news{
+        color: white;
+        margin-bottom: 60px;
+    }
+
+    p{
+        opacity: 0.7;
+        padding-top: 10px;
+    }
+
+    .more-button{
+        text-align: center;
+        color: white;
+    }
+
+    .more-button>a{
+        border-radius: 5px;
+        border-style: solid;
+        border-color: aliceblue;
+        font-size: 14px;
+        line-height: 48px;
+        display: block;
+        height: 48px;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        text-decoration: none;
+        margin-bottom: 240px;
+        opacity: 0.7;
+    }
+
+    .more-button>a:hover{
+        opacity: 1;
+    }
+
+    .desktop-hot{
+        margin-top: -150px;
+    }
+
+    .hot-title{
+        background-color: white;
+        width: 8rem;
+    }
+
+    .hot-title-box{ 
+        left: 8.333333%;
+    }
+
+    .hot-title>h2{
+        color: #003262;
+        width: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+
+    .carousel-1{
+        height: 40rem; 
+        padding-left: 5rem;
+    }
+
+    .carousel-2{
+        height: 20rem; 
+        margin-top: 7rem; 
+        left: -7rem;
+        position: relative;
+    }
+
+    .carousel-1-img-box, .carousel-2-img-box{
+        height: 80%;
+    }
+
+    .carousel-1-text-box, .carousel-2-text-box{
+        background-color: white;
+        position: relative !important;
+        bottom: unset !important;
+        left: unset !important;
+        right: unset !important;
+        margin-right: 20%;
+        color: black;
+        transform: translateY(-50%);
+    }
+
+    .carousel-1-text-box{
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    .carousel-2-text-box{
+        padding: unset !important;
+    }
+
+    .carousel-1-img-box>img, .carousel-2-img-box>img{
+        height: -webkit-fill-available;
+    }
+
+    .carousel-indicators .active{
+        background-color: #003262;
+    }
+
+    .carousel-indicators li{
+        border-radius: 7px;
+        height: 12px !important;
+        width: 12px !important;
+        border: unset !important;
+    }
+
+    .BigCarousel-1-indicators{
+        margin-right: 8.33%;
+        bottom: -20px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    #carouselExampleCaptions img{
+        height: 20rem;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .desktop-notice, .desktop-hot{
+        display: none;
+    }
+
+    .cancel{
+        display: none;
+    }
+}
+
+.sub-item-title-logo{
+    width: 1.5rem;
+    margin: .5rem 1rem;
+    top: -.2rem;
+    position: relative;
+}
+
+.sub-item-title-text{
+    height: 3.5rem; 
+    background-color: rgb(248, 248, 248); 
+    font-size: 1.5rem; 
+    line-height: 3.5rem; 
+    color: #003262;
+}
+
+.news-items{
+    list-style: none; 
+    font-size: 1.3rem;
+    padding: .5rem 2rem;
+    margin-bottom: 0rem;
+}
+
+.news-items li{
+    border-bottom-color: rgb(248, 248, 248);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    line-height: 3.5rem;
+}
+
+.load-more{
+    height: 3.5rem;
+    line-height: 3.5rem;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #003262;
+    font-weight: bold;
+}
+
+.card{
+    border-radius: 0px;
+}
